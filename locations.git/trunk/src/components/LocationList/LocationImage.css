@@ -1,0 +1,15 @@
+.resort-state-img {
+  position: relative;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+.resort-state-img img {
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  height: 225px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}

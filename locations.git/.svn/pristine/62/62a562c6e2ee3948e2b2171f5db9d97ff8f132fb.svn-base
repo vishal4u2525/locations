@@ -1,0 +1,16 @@
+.property-location-list {
+  width: 100%;
+}
+.resort-items-list {
+  width: 100%;
+  position: relative;
+}
+.resort-list-property {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 1px #25314b;
+  background: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}

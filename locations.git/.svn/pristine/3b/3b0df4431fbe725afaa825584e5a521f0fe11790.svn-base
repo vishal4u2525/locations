@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.uk-container {
+  box-sizing: content-box;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button {
+  display: inline-block;
+  color: #25314b;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding: 8px 20px;
+  transition: background-color 0.3s ease-out 0s;
+  -webkit-transition: background-color 0.3s ease-out 0s;
+  background: #febb1f;
+  border: solid 2px transparent;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.button:hover,
+.button:focus {
+  background: #25314b;
+  color: #febb1f;
+  border: solid 2px #febb1f;
+}
+a.black-link {
+  color: #25314b;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 18px;
+  border-bottom: solid 1px transparent;
+  text-decoration: none;
+}
+a.black-link:hover,
+a.black-link:focus {
+  color: #7a2500;
+}
+.location-section-title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+}
+a:hover,
+a:focus {
+  color: #7a2500;
+}
+.uk-flex {
+  display: flex;
+}

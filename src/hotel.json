@@ -24,7 +24,7 @@
     },
     "logo": "https://res.cloudinary.com/milestonesuite/image/upload/v1670501176/Sun%20RV%20-%20Sun%20Outdoors/Styleguide/sun-rv-communities.svg",
     "image": "https://res.cloudinary.com/milestonesuite/image/upload/v1627496984/Sun%20RV%20-%20Sun%20Outdoors/Property%20Profiles/49er-village.jpg",
-    "price": "58",
+    "price": "",
     "resorttype": "",
     "propertycode": "FAR",
     "age": "All Ages",
@@ -5830,6 +5830,5 @@
     "custombookinglink": "",
     "campspoturl": "https://www.sunoutdoors.com/book/checkavailability/960/fl/woodsmoke-camping-resort",
     "reviewscount": "272"
-  },
-  {}
+  }
 ]

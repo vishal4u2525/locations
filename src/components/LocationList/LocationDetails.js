@@ -1,5 +1,6 @@
 import '../LocationList/LocationDetails.css';
-
+import LocationAddress from './LocationAddress';
+import LocationPhone from './LocationPhone';
 const LocatioDetails = (props) => {
   return (
     <div className="resort-state-content">
@@ -9,10 +10,12 @@ const LocatioDetails = (props) => {
         </div>
       </div>
       <h3>{props.name}</h3>
-      <div className="address">{props.address}</div>
-      <a className="phone" href={'tel:' + props.phone}>
-        {props.phone}
-      </a>
+      {props.fulladdress.map((add) => (
+        <LocationAddress data={add} key={props.name} />
+      ))}
+      {props.phonenumber.map((phone) => (
+        <LocationPhone data={phone} key={props.name} />
+      ))}
       <div className="rating-divider rating-placement">
         <div className="submiited-rating">
           <div className="review-rating-block" style={{ width: '80%' }}></div>

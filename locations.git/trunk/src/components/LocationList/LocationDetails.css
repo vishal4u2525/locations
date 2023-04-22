@@ -1,0 +1,84 @@
+.resort-state-content {
+  font-size: 12px;
+  display: inline-block;
+  line-height: 20px;
+  padding: 10px 20px 7px 24px;
+}
+.resort-state-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: 50px;
+  padding-bottom: 5px;
+}
+.resort-state-logo img {
+  width: 85px;
+}
+.resort-state-content h3 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+}
+.resort-state-content .address {
+  font-size: 12px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.resort-state-content .phone {
+  font-size: 12px;
+  position: relative;
+  color: #25314b;
+  text-decoration: none;
+}
+.rating-placement {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.resort-list-mb-link:after {
+  content: '';
+  display: block;
+  background: #beb9b5;
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  top: 4px;
+  margin-left: -11px;
+}
+.submiited-rating {
+  list-style: none;
+  padding: 0;
+  width: 79px;
+  height: 15px;
+  position: relative;
+  background: url(https://www.sunoutdoors.com/images_noindex/star-single.svg)
+    scroll left top transparent;
+}
+.review-rating-block {
+  background: url(https://www.sunoutdoors.com/images_noindex/star-single-full.svg)
+    scroll left top transparent;
+  position: absolute;
+  height: 15px;
+  display: block;
+}
+.resort-state-content .place-rating {
+  margin: 5px 0px 5px 5px;
+  line-height: normal;
+}
+.place-rating span {
+  font-weight: normal;
+  padding-left: 4px;
+}
+.resort-list-mb-link {
+  margin-left: 20px;
+}
+.all-ages {
+  font-weight: bold;
+}
+.state-pp-link {
+  position: relative;
+  padding-top: 15px;
+}
