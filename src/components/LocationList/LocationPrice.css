@@ -1,0 +1,32 @@
+.resort-property-price {
+  display: block;
+  align-items: center;
+  padding: 20px 20px 20px 50px;
+  margin: 0 0 0 auto;
+  text-align: center;
+}
+.resort-property-price .st-price {
+  display: block;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.resort-property-price .st-price-tag {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  justify-content: center;
+  margin-bottom: 6px;
+  width: 100%;
+}
+.resort-property-price .st-price-number {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0 5px 0 6px;
+  line-height: 45px;
+}
+.resort-property-price .st-btn {
+  display: inline-block;
+  margin-left: 0;
+  z-index: 1;
+  position: relative;
+}
